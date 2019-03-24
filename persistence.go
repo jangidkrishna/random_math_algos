@@ -81,12 +81,10 @@ func main() {
 	for level_max <= 12 {
 		level = 0
 
-		if exists_5(*checking_if_5_exists) && exists_0(*checking_if_5_exists) == false {
-			fmt.Println(temp)
-			persistance(*temp)
-			fmt.Println("Levels deep ", level+1)
-			fmt.Println("\n")
-		}
+		fmt.Println(temp)
+		persistance(*temp)
+		fmt.Println("Levels deep ", level+1)
+		fmt.Println("\n")
 
 		num.Add(num, one)
 
